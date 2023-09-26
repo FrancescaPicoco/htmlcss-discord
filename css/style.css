@@ -1,9 +1,10 @@
 
-nav{
-    height: 60px;
-    background-color: rgb(37, 94, 233);
-}
+
      /*****info header*****/
+nav{
+        height: 60px;
+        background-color: rgb(37, 94, 233);
+}
  a{
         text-decoration: none;
         color: white;
@@ -14,8 +15,8 @@ button{
         cursor: pointer;
 }
 button:hover{
-    background-color: #547ae1;
-      transition: 0.7s;
+    background-color: #547ae1;   
+    transition: 0.7s;
 }
 .navbar>button{
     font-size: 10px;
@@ -25,17 +26,18 @@ ul{
     list-style: none;
 }
 li{
-    padding: 0 20px;
+   padding: 0 20px;
 }
 
 .header-bottom{
     background-image : url("../img/jumbo.png");
     background-size: cover;
-    height: 500px; 
+    min-height: 500px; 
 }
 .square-img{
     height: 250px;
 }
+   /*Text details*/
 h1 , p{
     text-align: center;
     padding: 10px 0;
@@ -45,86 +47,13 @@ h1 , p{
 h1{
     font-size: 40px;
 }
-.mac , .brows{
-font-size: 15px;
-padding: 10px 25px;
-margin: 20px;
-font-weight: bold;
-border-radius: 20px;
-border: none;
-}
-.mac{
-    background-color: white;
-}
-.scnd-mac{
-    background-color: #4f7193;
-    font-size: 15px;
-padding: 10px 25px;
-margin: 20px;
-font-weight: bold;
-border-radius: 20px;
-border: none;
-color: white;
-}
-.brows{
-    background-color: rgb(33, 33, 33);
-    color:white;
-  
-}
-     /*****info main*****/
-
-        /**info layout**/
-.container.uno {
-    height: 650px;
-    background-color:white;
-}
-.container.due {
-    height: 650px;
-    background-color: rgb(246, 246, 246);
-}
-.container.due>.row{
-    background-color: rgb(246, 246, 246);
-}
-.container.tre{
-    height: 1300px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(246, 246, 246);
-}
-.container.tre>.row{
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(246, 246, 246);
-}
-.row{
-    background-color: white;
-    width: 70%;
-    height: 70%;
-    display: flex;
-}
-.closing{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-        /**info boxes**/
-.first-box{
-    background-image:url("../img/item1.svg");
-    background-repeat: no-repeat;
-}
-.second-box>h2 , .second-box>p{
-    color: black;
-    text-align: left;
-    padding: 30px 60px 10px 65px;
-}
 h2{
     font-size: 45px;
-    font-weight: bold;
+    font-weight: bol
 }
 h3{
     padding: 20px;
-    font-weight: bold;
+    font-weight: bol
 }
 .urplace{
     font-size: 20px;
@@ -136,6 +65,68 @@ p{
 p:not(.intro) {
     font-weight: bold;
 }
+   /*Button Details*/
+.mac , .brows{
+font-size: 15px;
+padding: 10px 25px;
+margin: 20px;
+border-radius: 20px;
+}
+.mac{
+    background-color: white;
+}
+.brows{
+    background-color: rgb(33, 33, 33);
+    color:white;
+}
+.scnd-mac{
+    background-color: #4f7193;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+  
+
+     /*****info main*****/
+
+        /**info layout**/
+.container.uno {
+    min-height: 650px;
+    background-color:white;
+}
+.container.due {
+    min-height: 650px;
+    background-color: rgb(246, 246, 246);
+}
+.container.due>.row{
+    background-color: rgb(246, 246, 246);
+}
+.container.tre{
+    height: 1300px;
+    background-color: rgb(246, 246, 246);
+}
+.container.tre>.row{
+    background-color: rgb(246, 246, 246);
+}
+.row{
+    background-color: white;
+    width: 70%;
+    height: 70%;
+}
+        /**info boxes**/
+.first-box{
+    background-image:url("../img/item1.svg");
+    background-repeat: no-repeat;
+}
+.second-box>h2 , .second-box>p{
+    color: black;
+    text-align: left;
+    padding: 30px 60px 10px 65px;
+}
+
 .second-box>p{
     font-size: 15px;
 }

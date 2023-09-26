@@ -12,6 +12,7 @@ body{background-color : rgb(35, 39, 42);
 .jcont-betw{justify-content: space-between;}
 .jcont-arnd{justify-self: space-around;}
 .alg-items{align-items: center;}
+.flex-di-col{flex-direction: column;}
 
 .w{width: 100%;}
 .w-20{width: 20%;}
@@ -26,3 +27,7 @@ body{background-color : rgb(35, 39, 42);
 .gray{background-color: gray;}
 .black{background-color: black}
 .light{background-color:rgb(246, 246, 246);}
+
+.wei-bold{font-weight: bold;}
+
+.norober{border: none;}
