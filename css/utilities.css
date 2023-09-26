@@ -9,6 +9,7 @@ body{font-family: 'Inclusive Sans', sans-serif;}
 .d-flex{display: flex;}
 .jcont-cent{justify-content: center;}
 .jcont-betw{justify-content: space-between;}
+.jcont-arnd{justify-self: space-around;}
 .alg-items{align-items: center;}
 
 .w{width: 100%;}
