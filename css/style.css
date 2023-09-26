@@ -80,18 +80,22 @@ color: white;
 }
 .container.due {
     height: 650px;
-    background-color:white;
+    background-color: rgb(246, 246, 246);
+}
+.container.due>.row{
+    background-color: rgb(246, 246, 246);
 }
 .container.tre{
     height: 1300px;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgb(246, 246, 246);
 }
 .container.tre>.row{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(246, 246, 246);
 }
 .row{
     background-color: white;
@@ -107,6 +111,7 @@ color: white;
         /**info boxes**/
 .first-box{
     background-image:url("../img/item1.svg");
+    background-repeat: no-repeat;
 }
 .second-box>h2 , .second-box>p{
     color: black;
@@ -141,9 +146,11 @@ p:not(.intro) {
 }
 .fourth-box{
     background-image:url("../img/item2.svg");
+    background-repeat: no-repeat;
 }
 .fiveth-box{
     background-image: url("../img/item3.svg");
+    background-repeat: no-repeat;
 }
 .sixth-box>h2 , .sixth-box>p{
     color: black;
