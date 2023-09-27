@@ -127,17 +127,17 @@ border-radius: 20px;
 }
 .container.due {
     min-height: 650px;
-    background-color: rgb(246, 246, 246;)
+    background-color: rgb(246, 246, 246);
 }
 .container.due>.row{
-    background-color: rgb(246, 246, 246;)
+    background-color: rgb(246, 246, 246);
 }
 .container.tre{
     min-height: 1300px;
-    background-color: rgb(246, 246, 246;)
+    background-color: rgb(246, 246, 246);
 }
 .container.tre>.row{
-    background-color: rgb(246, 246, 246;)
+    background-color: rgb(246, 246, 246);
 }
 .row{
     background-color: white;
