@@ -54,3 +54,6 @@ body{background-color : rgb(35, 39, 42);
 .wei-bold{font-weight: bold;}
 
 .norober{border: none;}
+
+  /**Icon**/
+.ic{filter: invert(1);}

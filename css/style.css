@@ -35,7 +35,7 @@ li{
     min-height: 500px; 
 }
 .square-img{
-    height: 250px;
+    min-height: 250px;
 }
    /*Text details*/
    /**header*/
@@ -149,6 +149,8 @@ border-radius: 20px;
 .first-box{
     background-image:url("../img/item1.svg");
     background-repeat: no-repeat;
+    width: 2000px;
+    
 }
 .fourth-box{
     background-image:url("../img/item2.svg");
@@ -161,9 +163,9 @@ border-radius: 20px;
 
 .justbox{
     background-image: url("../img/item4-big.svg");
-    height: 900px;
-    background-size: cover;
-    padding-top: 0;
+    height: 650px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
      /*****info footer*****/
@@ -177,7 +179,7 @@ border-radius: 20px;
     display: inline-block;
  }
  .twitter{
-    background-image: url("../img/twitter.svg");
+    background-image: url("../img/twitter.svg");   
  } 
  .insta{
     background-image: url("../img/instagram.svg")
