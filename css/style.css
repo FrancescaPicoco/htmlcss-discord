@@ -38,33 +38,61 @@ li{
     height: 250px;
 }
    /*Text details*/
+   /**header*/
 h1 , p{
     text-align: center;
     padding: 10px 0;
     color: white;
     line-height: 1.6;
 }
+    /**Main**/
 h1{
     font-size: 40px;
 }
 h2{
     font-size: 45px;
-    font-weight: bol
 }
 h3{
     padding: 20px;
-    font-weight: bol
+}
+.second-box>h2 , .second-box>p{
+    color: black;
+    text-align: left;
+    padding: 30px 60px 10px 65px;
+}
+.second-box>p{
+    font-size: 15px;
+}
+.third-box>h2 , .third-box>p{
+    color: black;
+    text-align: left;
+    padding: 30px 60px 10px 65px;
+}
+.sixth-box>h2 , .sixth-box>p{
+    color: black;
+    text-align: left;
+}
+.sixth-box>h2{
+    padding: 60px 40px 10px 40px;
+}
+.sixth-box>p{
+    padding: 10px 100px 10px 40px;
+}
+.last>p{
+    color: black;
+    padding: 20px 100px 0 100px;
+}
+.last>h2{margin-top: 70px;}
+
+.closing>h3{
+    font-size: 30px;
 }
 .urplace{
     font-size: 20px;
     color: rgb(142, 161, 225);
 }
-p{
-    font-weight: bold;
-}
-p:not(.intro) {
-    font-weight: bold;
-}
+
+
    /*Button Details*/
 .mac , .brows{
 font-size: 15px;
@@ -99,41 +127,28 @@ border-radius: 20px;
 }
 .container.due {
     min-height: 650px;
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(246, 246, 246;)
 }
 .container.due>.row{
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(246, 246, 246;)
 }
 .container.tre{
-    height: 1300px;
-    background-color: rgb(246, 246, 246);
+    min-height: 1300px;
+    background-color: rgb(246, 246, 246;)
 }
 .container.tre>.row{
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(246, 246, 246;)
 }
 .row{
     background-color: white;
     width: 70%;
     height: 70%;
 }
-        /**info boxes**/
+
+        /**Info Boxes Main**/
 .first-box{
     background-image:url("../img/item1.svg");
     background-repeat: no-repeat;
-}
-.second-box>h2 , .second-box>p{
-    color: black;
-    text-align: left;
-    padding: 30px 60px 10px 65px;
-}
-
-.second-box>p{
-    font-size: 15px;
-}
-.third-box>h2 , .third-box>p{
-    color: black;
-    text-align: left;
-    padding: 30px 60px 10px 65px;
 }
 .fourth-box{
     background-image:url("../img/item2.svg");
@@ -143,20 +158,7 @@ border-radius: 20px;
     background-image: url("../img/item3.svg");
     background-repeat: no-repeat;
 }
-.sixth-box>h2 , .sixth-box>p{
-    color: black;
-    text-align: left;
-}
-.sixth-box>h2{
-    padding: 60px 40px 10px 40px;
-}
-.sixth-box>p{
-    padding: 10px 100px 10px 40px;
-}
-.last>p{
-    color: black;
-    padding: 20px 100px 0 100px;
-}
+
 .justbox{
     background-image: url("../img/item4-big.svg");
     height: 900px;
@@ -166,93 +168,61 @@ border-radius: 20px;
 
      /*****info footer*****/
  .ita{
-    width: 10px;
     display: inline-block;
  } 
  .nation{
-    color: white;
     padding-left: 5px;
  }
  .angle{
-    width: 10px;
     display: inline-block;
- }
- .footer-img{
-    display: flex;
  }
  .twitter{
     background-image: url("../img/twitter.svg");
-    width: 20px;
-    height: 20px;
-    margin-top: 5px;
-    margin-right: 5px;
  } 
  .insta{
-    background-image: url("../img/instagram.svg");
-    width: 20px;
-    height: 20px;
-    margin-top: 5px;
-    margin-right: 5px;
+    background-image: url("../img/instagram.svg")
  }
  .fb{
     background-image: url("../img/facebook.svg");
-    width: 20px;
-    height: 20px;
-    margin-top: 5px;
-    margin-right: 5px;
+   
  }
  .yt{
     background-image: url("../img/youtube.svg");
-    width: 20px;
-    margin-top: 5px;
-    height: 20px;
- }
- .foot-left-box{
-display: fle
-justify-content: start;
  }
 .footer-top{
-    height: 400px;
+    max-height: 400px;
     background-color: rgb(35, 39, 42);
 }
 .frst-footer-box{
     background-color: rgb(35, 39, 42);
+    line-height: 1.5;
 }
 .frst-footer-box>h3 , .blue{
     color: rgb(142, 161, 225);
 }
 .white{
-color: white;
 font-size: 15px;
 }
 .scnd-footer-box{
     background-color: rgb(35, 39, 42);
-    flex-direction: row;
     text-align: left;
     line-height: 1.7;
 }
 hr {
-        border: 2px solid rgb(142, 161, 225);
+    border: 2px solid rgb(142, 161, 225);
 }
 .footer-bottom{
     height: 60px;
     background-color: rgb(35, 39, 42);
-    padding-bottom: 100px;
-    padding-top: 30px;
 }
 .logo-end{
- background-image: url("../img/logo.svg");
- width: 123px;
- height: 30px;
+    background-image: url("../img/logo.svg");
+    width: 123px;
+    height: 30px;
 }
 .reg{
     background-color: rgb(142, 161, 225);
-    border: none;
 }
 .footer-info{
     width: 70%;
-    margin-top: 20px;
-}
-.info{
-    padding: 5px;
 }
